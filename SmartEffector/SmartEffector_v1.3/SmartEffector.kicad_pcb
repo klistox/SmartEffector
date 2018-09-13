@@ -1,8 +1,8 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.0.0+dfsg1-2)
+(kicad_pcb (version 20171130) (host pcbnew "(5.0.0)")
 
   (general
     (thickness 1.6)
-    (drawings 77)
+    (drawings 82)
     (tracks 1429)
     (zones 0)
     (modules 57)
@@ -20,24 +20,24 @@
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
-    (32 B.Adhes user)
-    (33 F.Adhes user)
-    (34 B.Paste user)
-    (35 F.Paste user)
+    (32 B.Adhes user hide)
+    (33 F.Adhes user hide)
+    (34 B.Paste user hide)
+    (35 F.Paste user hide)
     (36 B.SilkS user)
     (37 F.SilkS user)
     (38 B.Mask user)
     (39 F.Mask user)
-    (40 Dwgs.User user)
-    (41 Cmts.User user)
-    (42 Eco1.User user)
-    (43 Eco2.User user)
+    (40 Dwgs.User user hide)
+    (41 Cmts.User user hide)
+    (42 Eco1.User user hide)
+    (43 Eco2.User user hide)
     (44 Edge.Cuts user)
-    (45 Margin user)
-    (46 B.CrtYd user)
-    (47 F.CrtYd user)
-    (48 B.Fab user)
-    (49 F.Fab user)
+    (45 Margin user hide)
+    (46 B.CrtYd user hide)
+    (47 F.CrtYd user hide)
+    (48 B.Fab user hide)
+    (49 F.Fab user hide)
   )
 
   (setup
@@ -187,10 +187,10 @@
     (uvia_drill 0.1)
   )
 
-  (module Wire_Pads:M4_3.8 locked (layer F.Cu) (tedit 5B8E9582) (tstamp 587D4507)
+  (module Wire_Pads:M4_3.8 locked (layer F.Cu) (tedit 5B9ADE0F) (tstamp 587D4507)
     (at 45.106803 113.838022)
     (path /587CF0CA)
-    (fp_text reference M5 (at 0 -5.08) (layer F.SilkS)
+    (fp_text reference M5 (at 0 -5.08) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value M_3.8mm (at 0 5.08) (layer F.Fab)
@@ -201,10 +201,10 @@
     (pad "" np_thru_hole circle (at 0 0) (size 3.8 3.8) (drill 3.8) (layers *.Cu *.Mask))
   )
 
-  (module Wire_Pads:M4_3.8 locked (layer F.Cu) (tedit 5B8E9589) (tstamp 587EB1D7)
+  (module Wire_Pads:M4_3.8 locked (layer F.Cu) (tedit 5B9ADE0C) (tstamp 587EB1D7)
     (at 54.186944 98.110756)
     (path /587CF163)
-    (fp_text reference M7 (at 0 -5.08) (layer F.SilkS)
+    (fp_text reference M7 (at 4.302525 -2.218279) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value M_3.8mm (at 0 5.08) (layer F.Fab)
@@ -215,10 +215,10 @@
     (pad "" np_thru_hole circle (at 0 0) (size 3.8 3.8) (drill 3.8) (layers *.Cu *.Mask))
   )
 
-  (module Wire_Pads:M4_3.8 (layer F.Cu) (tedit 5B8E9591) (tstamp 587D451C)
+  (module Wire_Pads:M4_3.8 (layer F.Cu) (tedit 5B9ADE05) (tstamp 587D451C)
     (at 114.186946 98.110757)
     (path /587CF1AF)
-    (fp_text reference M8 (at 0 -5.08) (layer F.SilkS)
+    (fp_text reference M8 (at -3.881477 -1.83728) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value M_3.8mm (at 0 5.08) (layer F.Fab)
@@ -229,10 +229,10 @@
     (pad "" np_thru_hole circle (at 0 0) (size 3.8 3.8) (drill 3.8) (layers *.Cu *.Mask))
   )
 
-  (module Wire_Pads:M4_3.8 locked (layer F.Cu) (tedit 5B8E9598) (tstamp 587D450E)
+  (module Wire_Pads:M4_3.8 locked (layer F.Cu) (tedit 5B9ADE01) (tstamp 587D450E)
     (at 123.267079 113.83802)
     (path /587CF116)
-    (fp_text reference M6 (at 0 -5.08) (layer F.SilkS)
+    (fp_text reference M6 (at 1.38939 -3.721543) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value M_3.8mm (at 0 5.08) (layer F.Fab)
@@ -243,10 +243,10 @@
     (pad "" np_thru_hole circle (at 0 0) (size 3.8 3.8) (drill 3.8) (layers *.Cu *.Mask))
   )
 
-  (module Wire_Pads:M4_3.8 locked (layer F.Cu) (tedit 5B8E954C) (tstamp 587D7B70)
+  (module Wire_Pads:M4_3.8 locked (layer F.Cu) (tedit 5B9ADDF9) (tstamp 587D7B70)
     (at 93.267087 165.799547)
     (path /587CF200)
-    (fp_text reference M3 (at 0 -5.08) (layer F.SilkS)
+    (fp_text reference M3 (at 0 -5.08) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value M_3.8mm (at 0 5.08) (layer F.Fab)
@@ -257,10 +257,10 @@
     (pad "" np_thru_hole circle (at 0 0) (size 3.8 3.8) (drill 3.8) (layers *.Cu *.Mask))
   )
 
-  (module Wire_Pads:M4_3.8 locked (layer F.Cu) (tedit 5B8E94FB) (tstamp 587D4500)
+  (module Wire_Pads:M4_3.8 locked (layer F.Cu) (tedit 5B9ADDF6) (tstamp 587D4500)
     (at 75.106796 165.799547)
     (path /587CEA49)
-    (fp_text reference M4 (at 0 -5.08) (layer F.SilkS)
+    (fp_text reference M4 (at 0 -5.08) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value M_3.8mm (at 5.687905 -4.390158) (layer F.Fab)
@@ -271,9 +271,9 @@
     (pad "" np_thru_hole circle (at 0 0) (size 3.8 3.8) (drill 3.8) (layers *.Cu *.Mask))
   )
 
-  (module Wire_Pads:M2_2.4 (layer F.Cu) (tedit 5B940800) (tstamp 5B8E3977)
+  (module Wire_Pads:M2_2.4 (layer F.Cu) (tedit 5B9ADE09) (tstamp 5B8E3977)
     (at 84.186943 95.960759)
-    (fp_text reference M99 (at -3.348806 0.084343) (layer F.SilkS)
+    (fp_text reference M99 (at -3.348806 0.084343) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value M2_1.4mm (at 6.141194 0.024343) (layer F.Fab)
@@ -283,9 +283,9 @@
     (pad "" np_thru_hole circle (at 0 0) (size 1.1 1.1) (drill 1.1) (layers *.Cu *.Mask))
   )
 
-  (module Wire_Pads:M2_2.4 (layer F.Cu) (tedit 5B9407F7) (tstamp 5B8DFD26)
+  (module Wire_Pads:M2_2.4 (layer F.Cu) (tedit 5B9ADE15) (tstamp 5B8DFD26)
     (at 58.244843 140.893787 120)
-    (fp_text reference M97 (at 3.736499 -0.083013 120) (layer F.SilkS)
+    (fp_text reference M97 (at 3.736499 -0.083013 120) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value M2_1.4mm (at -6.363543 -0.129226 120) (layer F.Fab)
@@ -295,9 +295,9 @@
     (pad "" np_thru_hole circle (at 0 0 120) (size 1.1 1.1) (drill 1.1) (layers *.Cu *.Mask))
   )
 
-  (module Wire_Pads:M2_2.4 (layer F.Cu) (tedit 5B9407EE) (tstamp 5B8DFD20)
+  (module Wire_Pads:M2_2.4 (layer F.Cu) (tedit 5B9ADDFD) (tstamp 5B8DFD20)
     (at 110.129047 140.893789 240)
-    (fp_text reference M98 (at 3.777945 -0.201285 240) (layer F.SilkS)
+    (fp_text reference M98 (at 3.777945 -0.201285 240) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value M2_1.4mm (at -5.955591 -0.020264 240) (layer F.Fab)
@@ -1609,7 +1609,7 @@
     )
   )
 
-  (module complib:LED_PLCC-2 (layer B.Cu) (tedit 58E0E923) (tstamp 58D2AF71)
+  (module complib:LED_PLCC-2 (layer B.Cu) (tedit 5B9AE0A5) (tstamp 58D2AF71)
     (at 48.237645 105.16177 240)
     (descr "LED PLCC-2 SMD package")
     (tags "LED PLCC-2 SMD")
@@ -1621,7 +1621,7 @@
     (fp_text value Comms (at 0 -2.5 240) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text user K (at -3.957066 0.991181 240) (layer B.SilkS)
+    (fp_text user K (at -3.957066 0.991181 240) (layer B.SilkS) hide
       (effects (font (size 0.9 0.9) (thickness 0.1)) (justify mirror))
     )
     (fp_line (start 2.25 -1.6) (end -2.4 -1.6) (layer B.SilkS) (width 0.12))
@@ -1663,7 +1663,7 @@
     )
   )
 
-  (module complib:LED_PLCC-2 (layer B.Cu) (tedit 58E0E91E) (tstamp 58D2AF83)
+  (module complib:LED_PLCC-2 (layer B.Cu) (tedit 5B9AE0A0) (tstamp 58D2AF83)
     (at 84.120702 167.491964)
     (descr "LED PLCC-2 SMD package")
     (tags "LED PLCC-2 SMD")
@@ -1675,7 +1675,7 @@
     (fp_text value Comms (at 0 -2.5) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text user K (at -4.102768 0.812217) (layer B.SilkS)
+    (fp_text user K (at -4.102768 0.812217) (layer B.SilkS) hide
       (effects (font (size 0.9 0.9) (thickness 0.1)) (justify mirror))
     )
     (fp_line (start 2.25 -1.6) (end -2.4 -1.6) (layer B.SilkS) (width 0.12))
@@ -1686,7 +1686,7 @@
       (net 18 "Net-(D7-Pad2)"))
   )
 
-  (module complib:LED_PLCC-2 (layer B.Cu) (tedit 58E15735) (tstamp 58D2AF8B)
+  (module complib:LED_PLCC-2 (layer B.Cu) (tedit 5B9AE0AA) (tstamp 58D2AF8B)
     (at 120.175049 105.220999 120)
     (descr "LED PLCC-2 SMD package")
     (tags "LED PLCC-2 SMD")
@@ -1698,7 +1698,7 @@
     (fp_text value Comms (at 0 -2.5 120) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text user K (at -3.41469 0.797969 120) (layer B.SilkS)
+    (fp_text user K (at -3.41469 0.797969 120) (layer B.SilkS) hide
       (effects (font (size 0.9 0.9) (thickness 0.1)) (justify mirror))
     )
     (fp_line (start 2.25 -1.6) (end -2.4 -1.6) (layer B.SilkS) (width 0.12))
@@ -2028,6 +2028,18 @@
       (xy -1.056581 0.682429)) (layer F.SilkS) (width 0.01))
   )
 
+  (gr_line (start 126.959844 115.486448) (end 96.601596 168.068477) (layer Edge.Cuts) (width 0.2))
+  (gr_arc (start 53.839971 99.003171) (end 53.839971 94.003171) (angle -60) (layer Edge.Cuts) (width 0.2))
+  (gr_arc (start 45.766723 112.986448) (end 41.436596 110.486448) (angle -60) (layer Edge.Cuts) (width 0.2))
+  (gr_line (start 53.839971 94.003171) (end 114.556469 94.003171) (layer Edge.Cuts) (width 0.2))
+  (gr_arc (start 114.556469 99.003171) (end 118.886596 96.503171) (angle -60) (layer Edge.Cuts) (width 0.2))
+  (gr_line (start 118.886596 96.503171) (end 126.959844 110.486448) (layer Edge.Cuts) (width 0.2))
+  (gr_arc (start 122.629717 112.986448) (end 126.959844 115.486448) (angle -60) (layer Edge.Cuts) (width 0.2))
+  (gr_arc (start 92.271469 165.568477) (end 92.271469 170.568477) (angle -60) (layer Edge.Cuts) (width 0.2))
+  (gr_arc (start 76.124971 165.568477) (end 71.794844 168.068477) (angle -60) (layer Edge.Cuts) (width 0.2))
+  (gr_line (start 71.794844 168.068477) (end 41.436596 115.486448) (layer Edge.Cuts) (width 0.2))
+  (gr_line (start 41.436596 110.486448) (end 49.509844 96.503171) (layer Edge.Cuts) (width 0.2))
+  (gr_line (start 92.271469 170.568477) (end 76.124971 170.568477) (layer Edge.Cuts) (width 0.2))
   (gr_text T2 (at 102.562039 135.614841 -30) (layer F.SilkS)
     (effects (font (size 0.7 0.7) (thickness 0.08)))
   )
@@ -2083,7 +2095,7 @@
     (effects (font (size 0.7 0.7) (thickness 0.1)) (justify mirror))
   )
   (gr_arc (start 84.186942 102.916111) (end 92.272014 97.055601) (angle 251) (layer F.SilkS) (width 0.2) (tstamp 5951EDAE))
-  (gr_text "Jumpered for 2 Wire" (at 94.875525 144.858812 60) (layer F.SilkS)
+  (gr_text "Jumpered for 2 wire" (at 95.192469 144.533477 60) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.1)))
   )
   (gr_text +3V3 (at 72.175525 100.683813 90) (layer F.SilkS)
@@ -2115,11 +2127,8 @@
   (gr_text GND (at 67.143454 97.739226 90) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.1)) (justify right))
   )
-  (gr_text "duet3d.com\nPULPO" (at 99.994702 120.529389) (layer F.Mask)
-    (effects (font (size 1.5 1.5) (thickness 0.26)))
-  )
-  (gr_text "duet3d.com\nPULPO" (at 99.997469 120.530477) (layer F.Cu)
-    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  (gr_text "David\nCarlos\nSergio\nSanti\nRaúl\nXavi\nOriol\nVictor\nJavier" (at 98.367469 118.879477) (layer Dwgs.User)
+    (effects (font (size 1.5 1.5) (thickness 0.26)) (justify mirror))
   )
   (gr_text "RST\n\nSCK\n\nMISO" (at 69.593453 106.259225 90) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.1)) (justify right))
@@ -2166,15 +2175,9 @@
   (gr_text + (at 57.673604 128.11783 -60) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.1)))
   )
-  (gr_text "StrainEffector V1.3a\nPULPO Version\nTHANKS\nwww.duet3d.com" (at 99.744701 113.68939) (layer F.SilkS)
+  (gr_text "Based on\nStrainEffector V1.3a\nwww.duet3d.com\n\nPulpomaker Version\n" (at 101.288469 115.704477) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )
-  (gr_line (start 39.979186 113.049393) (end 73.225969 170.634506) (angle 90) (layer Edge.Cuts) (width 0.2))
-  (gr_line (start 50.940158 94.064428) (end 39.979183 113.049396) (angle 90) (layer Edge.Cuts) (width 0.2))
-  (gr_line (start 117.433727 94.064431) (end 50.940159 94.064432) (angle 90) (layer Edge.Cuts) (width 0.2))
-  (gr_line (start 128.394701 113.04939) (end 117.433728 94.064424) (angle 90) (layer Edge.Cuts) (width 0.2))
-  (gr_line (start 95.14792 170.634512) (end 128.394704 113.049389) (angle 90) (layer Edge.Cuts) (width 0.2))
-  (gr_line (start 95.14792 170.634512) (end 73.225967 170.634514) (angle 90) (layer Edge.Cuts) (width 0.2))
 
   (segment (start 72.096943 101.966108) (end 72.096943 101.601112) (width 0.5) (layer B.Cu) (net 1))
   (segment (start 112.534436 122.190205) (end 113.118868 121.177945) (width 0.5) (layer B.Cu) (net 1))
