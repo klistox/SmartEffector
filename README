@@ -1,8 +1,17 @@
-The Duet3d Smart Effector design files repository.
+Fork for Smart Effector with some dimensions modification to fit in the Pulpomaker
+delta printer.
+
+1) Distance between balls is 55mm
+2) Balls has been moved out 5mm from its original place.
+3) Balls holes converted to 4mm.
+4) Lateral central holes added for spring wraping.
+5) Polpomaker Logo added.
+
+Now 10mm balls can be used!
+
+Thanks to www.duet3d.com!
 
 See https://www.duet3d.com/DeltaSmartEffector for more information and to purchase a smart effector.
-
-
 
 Duet3d Delta Smart Effector
 Design by Tony Lock and David Crocker
